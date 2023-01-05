@@ -1,0 +1,139 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #FCF9F8;
+    overflow-x: hidden;
+}
+nav {
+	padding: 0; margin: 0;
+	text-align: center;
+    
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    line-height: 50px;
+    
+}
+
+nav ul li a{
+    color: #3d3d3d;
+    text-decoration: none;
+    font-weight: bold; 
+    transition: transform .1s; 
+ }
+
+ nav ul li:hover{
+    transform: scale(1.01);
+ }
+ hr {
+    width: 800px;
+    margin: auto;
+    position: relative;    
+}
+img{
+    width: 300px;
+    height: 300px; 
+}
+
+h1 {
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'Work Sans', sans-serif;
+    color: #3d3d3d;
+}
+h2 {
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    color: #3d3d3d;
+    
+}
+
+h3{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #3d3d3d;
+    margin-bottom: 40px;
+    
+}
+
+.block {
+    display: flex;
+    margin: auto;
+    width: 800px;
+    position: relative;  
+}
+.block1 {
+    margin-left: 100px;
+}
+.block2 {
+    margin-left: 100px;
+}
+
+#sousmenu1 {
+    margin-bottom: 100px;
+}
+#sousmenu2 {
+    margin-top: 100px;
+}
+
+.p1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    max-width: 250px;
+    color: #3d3d3d;
+}
+.p2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    max-width: 250px; 
+    margin-top: 30px; 
+    color: #3d3d3d;
+}
+
+span {
+   color: #b0b0b0;
+}
+
+.social{
+    padding: 0; margin: 0;
+	text-align: center;
+}
+ 
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    line-height: 50px;
+    transition: transform .1s; 
+     
+}
+ul li i{
+    color: #3d3d3d;  
+    font-size: 30px;
+}
+
+ul li:hover{
+    transform: scale(1.08);
+ }
