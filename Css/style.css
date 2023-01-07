@@ -38,7 +38,7 @@ nav ul li a{
     transform: scale(1.01);
  }
  hr {
-    width: 800px;
+    width: 900px;
     margin: auto;
     position: relative;    
 }
@@ -55,9 +55,9 @@ h1 {
 }
 h2 {
     text-align: center;
-    margin-top: 15px;
+    margin-top: 10px;
     font-family: 'Work Sans', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     color: #3d3d3d;
     
 }
@@ -80,29 +80,29 @@ h3{
     position: relative;  
 }
 .block1 {
-    margin-left: 100px;
+    margin-left: 75px;
 }
 .block2 {
     margin-left: 100px;
 }
 
 #sousmenu1 {
-    margin-bottom: 100px;
+    margin-bottom: 110px;
 }
 #sousmenu2 {
-    margin-top: 100px;
+    margin-top: 110px;
 }
 
 .p1 {
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    max-width: 250px;
+    font-size: 19px;
+    max-width: 281px;
     color: #3d3d3d;
 }
 .p2 {
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    max-width: 250px; 
+    font-size: 19px;
+    max-width: 281px; 
     margin-top: 30px; 
     color: #3d3d3d;
 }
