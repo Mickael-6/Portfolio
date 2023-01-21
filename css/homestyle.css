@@ -38,16 +38,20 @@ h2 {
 }
 h3 {
     font-family: 'Poppins', sans-serif;
-    color: #6e6e6e; 
-    font-size: 20px;  
+    color: #484848; 
+    font-size: 25px;  
+    font-weight: 400;
+    text-align: center;
 }
 
 .hometext {
     font-family: 'Poppins', sans-serif;
-    color: #a9a9a9; 
-    font-size: 16px; font-family: 'Poppins', sans-serif;
-    font-weight: 700;
+    color: #8e8e8e; 
+    font-size: 18px; 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
     width: 500px;
+    margin-top: 13px;
 }
 .nav ul{
     display: inline-flex;
@@ -68,6 +72,9 @@ h3 {
 .nav li:hover {
     transform: scale(1.04);  
 }
+.social li:hover {
+    transform: scale(1.04);  
+}
 
 a {
     text-decoration: none;
@@ -77,8 +84,10 @@ a {
 img{
     width: 300px;
     height: 300px; 
-    margin-top: 220px;
+    margin-top: 250px;
+    margin-left:70px;
    
+    
 }
 
 .hr{
@@ -87,26 +96,41 @@ img{
     height: 1px;
     background-color: #3d3d3d23;  
 }
+svg {
+    width: 26px;
+    height: 26px;
+}
 i {
-    font-size: 20px;
+    font-size: 26px;
 }
 .social {
-   margin-top: 317px;
+   margin-top: 300px;
+   margin-left: 200px;
+   margin-right: 150px;
+   
 }
 .social li{
-    padding-top: 15px;
-    padding-bottom: 15px;
-   
+    padding-top: 18px;
+    padding-bottom: 18px;
     list-style-type: none;
 }
 .contenu {
+    
     display: flex;
-    justify-content: space-around;
+   
+    
+
 }
 .contenutext {
     display: inline;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 300px;
+    width: 430px;
+}
+.contenutext2 {
+    display: none;
     
-    margin-top: 250px;
 }
 
 /******************************** BARRE DE NAVIGATION ****************************************/
@@ -119,7 +143,27 @@ i {
         color: #3d3d3d; 
     
     } 
-
+    img{
+        width: 300px;
+        height: 300px; 
+        margin-top: 250px;
+       
+       
+        
+    }
+    .contenutext {
+        display: inline;
+        margin-left: 100px;
+        margin-right: 200px;
+        margin-top: 300px;
+        width: 430px;
+    }
+    .social {
+        margin-top: 300px;
+        margin-left: 200px;
+        margin-right: 150px;
+        
+     }
   
 }
 @media only screen and (max-width: 1569px) {
@@ -130,6 +174,28 @@ i {
         color: #3d3d3d; 
     
     } 
+    img{
+        width: 300px;
+        height: 300px; 
+        margin-top: 250px;
+       
+       
+        
+    }
+    .contenutext {
+        display: inline;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 300px;
+        width: 430px;
+    }
+    .social {
+        margin-top: 300px;
+        margin-left: 200px;
+        margin-right: 150px;
+        
+     }
+  
 
   
 }
@@ -141,6 +207,25 @@ i {
         color: #3d3d3d; 
     
     } 
+    img{
+        width: 300px;
+        height: 300px; 
+        margin-top: 250px;
+       
+    }
+    .contenutext {
+        display: inline;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 300px;
+        width: 430px;
+    }
+    .social {
+        margin-top: 300px;
+        margin-left: 200px;
+        margin-right: 150px;
+        
+     }
 
   
 }
@@ -152,7 +237,26 @@ i {
         color: #3d3d3d; 
     
     } 
-
+    img{
+        width: 300px;
+        height: 300px; 
+        margin-top: 250px;
+       
+       
+        
+    }
+    .contenutext {
+        display: inline;
+        
+        margin-top: 300px;
+        width: 430px;
+    }
+    .social {
+        margin-top: 300px;
+        margin-left: 200px;
+        margin-right: 50px;
+        
+     }
   
 }
 @media only screen and (max-width: 1269px) {
@@ -163,7 +267,30 @@ i {
         color: #3d3d3d; 
     
     } 
-
+    .contenutext {
+    
+        display: none;
+        
+       
+        
+    
+    }
+    .contenutext2 {
+    
+        display: block;
+        
+        width: 430px;
+    }
+    img{
+        width: 300px;
+        height: 300px; 
+        margin-top: 250px;
+        
+    }
+      .contenutextimage{
+        margin-left: 200px;
+      } 
+    
   
 }
 @media only screen and (max-width: 1169px) {
