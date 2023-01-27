@@ -11,18 +11,22 @@ html{
 
 
 body{
-    background-color: #FCF9F8;
+    background-color: #fcf9f8;
     overflow-x: hidden; 
     
 }
+/********************************************************** HOME PAGE ****************************************************************************/
 .nav {
-    
+    background-color: #FCF9F8;
+    height: 80px;
+    z-index: 1;
     padding-top: 20px;
     display:flex;
+    position: fixed;
     
 }
  h1{
-    margin-right: 900px;
+    margin-right: 960px;
     margin-left: 200px;
     font-family: 'Poppins', sans-serif;
     color: #3d3d3d; 
@@ -62,7 +66,6 @@ h3 {
     font-weight: bold;
     font-size: 17px;
    
-   
 }
 .nav li {
     padding-right: 28px;
@@ -81,662 +84,99 @@ h3 {
 a {
     text-decoration: none;
     color: #3d3d3d;
-    display: block;
 }
-img{
+.photo{
     width: 300px;
     height: 300px; 
     margin-top: 250px;
     margin-left:70px;
-   
-    
 }
 
 .hr{
-   margin-top: 20px;
+   margin-top: 60px;
     width: 100%;
     height: 1px;
     background-color: #3d3d3d23;  
-}
-
-svg {
-    width: 26px;
-    height: 26px;
+    position: fixed;
 }
 
 .social {
    margin-top: 300px;
    margin-left: 200px;
    margin-right: 150px;
-   
 }
 .social li{
     padding-top: 18px;
     padding-bottom: 18px;
     list-style-type: none;
 }
+.social img{
+    width: 26px;
+    height: 26px;
+}
 .contenu {
-    
-    display: flex;
-   margin-bottom: 260px;
-    
-
+   display: flex;
+   margin-bottom: 360px;
 }
 .contenutext {
     display: inline;
     margin-left: 200px;
     margin-right: 200px;
-    margin-top: 300px;
-    width: 430px;
+    margin-top: 300px; 
 }
-.contenutext2 {
-    display: none;
-    
-}
-
-
-
-/******************************** MENU TOGGLE ***************************************/
-
-
+/********************************************************** COMPETENCE ****************************************************************************/
 h4 {
-    display: none;
-}
-.menuburger {
-    display: none;
-   
+    font-family: 'Poppins', sans-serif;
+    color: #3d3d3d; 
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 100px;
 }
 
-/******************************** RESPONSIVE ****************************************/
-
-@media only screen and (max-width: 1669px) {
-    h1{
-        margin-right: 800px;
-        margin-left: 200px;
-        font-family: 'Poppins', sans-serif;
-        color: #3d3d3d; 
-    
-    } 
-    img{
-        width: 300px;
-        height: 300px; 
-        margin-top: 250px;
-       
-       
-        
-    }
-    .contenutext {
-        display: inline;
-        margin-left: 100px;
-        margin-right: 200px;
-        margin-top: 300px;
-        width: 430px;
-    }
-    .social {
-        margin-top: 300px;
-        margin-left: 200px;
-        margin-right: 150px;
-        
-     }
-  
+.cardcompetence1{
+    height: 500px;
+    width: 500px;
+    margin-left: 200px;
+    margin-bottom: 500px;
+    background-color:#FFFFFF;
+    border: solid 1px #e5e5e5;
+    border-radius: 5%;
 }
-@media only screen and (max-width: 1569px) {
-    h1{
-        margin-right: 700px;
-        margin-left: 200px;
-        font-family: 'Poppins', sans-serif;
-        color: #3d3d3d; 
-    
-    } 
-    img{
-        width: 300px;
-        height: 300px; 
-        margin-top: 250px;
-       
-       
-        
-    }
-    .contenutext {
-        display: inline;
-        margin-left: 100px;
-        margin-right: 100px;
-        margin-top: 300px;
-        width: 430px;
-    }
-    .social {
-        margin-top: 300px;
-        margin-left: 200px;
-        margin-right: 150px;
-        
-     }
-  
-
-  
+.cardcompetence1 p{
+   text-align: center;
+   margin-top: 50px;
+   font-family: 'Poppins', sans-serif;
+    color: #3d3d3d; 
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
 }
-@media only screen and (max-width: 1469px) {
-    h1{
-        margin-right: 600px;
-        margin-left: 200px;
-        font-family: 'Poppins', sans-serif;
-        color: #3d3d3d; 
+.cardcompetence1 ul{
+    list-style-type: none;
     
-    } 
-    img{
-        width: 300px;
-        height: 300px; 
-        margin-top: 250px;
-       
-    }
-    .contenutext {
-        display: inline;
-        margin-left: 50px;
-        margin-right: 50px;
-        margin-top: 300px;
-        width: 430px;
-    }
-    .social {
-        margin-top: 300px;
-        margin-left: 200px;
-        margin-right: 150px;
-        
-     }
-
-  
 }
-@media only screen and (max-width: 1369px) {
-    h1{
-        margin-right: 500px;
-        margin-left: 200px;
-        font-family: 'Poppins', sans-serif;
-        color: #3d3d3d; 
-    
-    } 
-    img{
-        width: 300px;
-        height: 300px; 
-        margin-top: 250px;
-       
-       
-        
-    }
-    .contenutext {
-        display: inline;
-        
-        margin-top: 300px;
-        width: 430px;
-    }
-    .social {
-        margin-top: 300px;
-        margin-left: 200px;
-        margin-right: 50px;
-        
-     }
-  
-}
-@media only screen and (max-width: 1269px) {
-    h1{
-        margin-right: 400px;
-        margin-left: 200px;
-        font-family: 'Poppins', sans-serif;
-        color: #3d3d3d; 
-    
-    } 
-    .contenutext {
-        display: none;
-    }
-    .contenutext2 {
-    
-        display: block;
-        
-        width: 430px;
-    }
-    img{
-        width: 300px;
-        height: 300px; 
-        margin-top: 150px;
-        
-    }
-      
-    .contenutextimage{
-   
-    margin-left: 150px;
-    }
-    .social {
-        margin-top: 300px;
-        margin-left: 160px;
-        margin-right: 50px;
-        
-     }
-/******************* MENU TOGGLE ********************/
-     h4{
-        font-size: 24px;
-        margin-left: 160px;
-        margin-right: 950px ;
-        font-family: 'Poppins', sans-serif;
-        color: #3d3d3d; 
-        padding-top:20px ;
-        display: block;
-    } 
-    
-    .hrmenutoggle{
-        margin-top: 20px;
-         width: 100%;
-         height: 1px;
-         background-color: #3d3d3d23;
-          
-     }
-    .menutoggle{
-        display: flex;
-    }
+.titre {
+    font-family: 'Poppins', sans-serif;
+     color: #3d3d3d; 
+     font-size: 20px;
+     font-weight: bold;
+    width: 150px;
      
-    .menuburger {
-        width: 26px;
-        height: 26px;
-        margin: 0;
-        margin-top: 25px;
-       display: block;
-    }
-    
-}
-    
-@media only screen and (max-width: 1169px) {
-    .nav{
-        display: none;
-    } 
-   .hr {
-    display: none;
-   }
-   /******************* MENU TOGGLE ********************/
-   h4{
-    font-size: 24px;
-    margin-left: 160px;
-    margin-right: 800px ;
-    font-family: 'Poppins', sans-serif;
-    color: #3d3d3d; 
-    padding-top:20px ;
-    display: block;
-} 
-
-   
-    
-}
-@media only screen and (max-width: 1090px) {
-/******************* MENU TOGGLE ********************/
-    h4{
-        font-size: 24px;
-        margin-left: 160px;
-        margin-right: 740px ;
-        font-family: 'Poppins', sans-serif;
-        color: #3d3d3d; 
-        padding-top:20px ;
-        display: block;
-}
-}
-@media only screen and (max-width: 1024px) {
-    .nav{
-        display: none;
-    } 
-   .hr {
-    display: none;
-   }
-   .social {
-    margin-top: 300px;
-    margin-left: 90px;
-    margin-right: 50px;
-    
- }
- img{
-    width: 300px;
-    height: 300px; 
-    margin-top: 50px;   
-}
-.contenutextimage{
-   
-    margin-left: 120px;
-    }
-/******************* MENU TOGGLE ********************/
-    h4{
-        font-size: 24px;
-        margin-left: 90px;
-        margin-right: 760px ;
-        font-family: 'Poppins', sans-serif;
-        color: #3d3d3d; 
-        padding-top:20px ;
-        display: block;
-    }
-    .contenu {
-    
-        display: flex;
-       margin-bottom: 60px;
-        
-    
-    }
-   
 }
 
-
-
-@media only screen and (max-width: 969px) {
-/******************* MENU TOGGLE ********************/
-   h4{
-    font-size: 24px;
-    margin-left: 90px;
-    margin-right: 680px ;
-    font-family: 'Poppins', sans-serif;
-    color: #3d3d3d; 
-    padding-top:20px ;
-    display: block;
-}
-  
-}
-@media only screen and (max-width: 880px) {
-/******************* MENU TOGGLE ********************/
-   h4{
-    font-size: 24px;
-    margin-left: 90px;
-    margin-right: 635px ;
-    font-family: 'Poppins', sans-serif;
-    color: #3d3d3d; 
-    padding-top:20px ;
-    display: block;
-}
-  
-}
-@media only screen and (max-width: 869px) {
-    .nav{
-        display: none;
-    } 
-   .hr {
-    display: none;
-   }
-   .contenutextimage{
-   
-    margin-left: 100px;
-    }
- 
-
-
-}
-@media only screen and (max-width: 840px) {
- /******************* MENU TOGGLE ********************/
- h4{
-    font-size: 24px;
-    margin-left: 90px;
-    margin-right: 560px ;
-    font-family: 'Poppins', sans-serif;
-    color: #3d3d3d; 
-    padding-top:20px ;
-    display: block;
-}
-
-
-}
-@media only screen and (max-width: 769px) {
-    .nav{
-        display: none;
-    } 
-   .hr {
-    display: none;
-   }
-   .contenutextimage{
-   
-    margin-left: 0px;
-    }
-    img{
-        width: 300px;
-        height: 300px; 
-        margin-top: 220px;
-        
-    }
-/******************* MENU TOGGLE ********************/
-h4{
-    font-size: 24px;
-    margin-left: 90px;
-    margin-right: 500px ;
-    font-family: 'Poppins', sans-serif;
-    color: #3d3d3d; 
-    padding-top:20px ;
-    display: block;
-}
-.contenu {
-
+.liste {
     display: flex;
-   margin-bottom: 190px;
-    
-
+    text-decoration: none;
 }
-
-
-}
-@media only screen and (max-width: 713px) {
-/******************* MENU TOGGLE ********************/
-h4{
-    font-size: 24px;
-    margin-left: 90px;
-    margin-right: 460px ;
-    font-family: 'Poppins', sans-serif;
-    color: #3d3d3d; 
-    padding-top:20px ;
-    display: block;
-}
-
-}
-@media only screen and (max-width: 669px) {
-    .nav{
-        display: none;
-    } 
-   .hr {
-    display: none;
-   }
-   .social {
-    margin-top: 300px;
-    margin-left: 30px;
-    margin-right: 40px;
-    
- }
- /******************* MENU TOGGLE ********************/
-h4{
-    font-size: 24px;
-    margin-left: 30px;
-    margin-right: 460px ;
-    font-family: 'Poppins', sans-serif;
-    color: #3d3d3d; 
-    padding-top:20px ;
-    display: block;
-}
-
-}
-
-@media only screen and (max-width: 669px) {
-     /******************* MENU TOGGLE ********************/
-h4{
-    
-    margin-right: 440px ;
-   
-}
-}
-
-@media only screen and (max-width: 590px) {
-    .nav{
-        display: none;
-    } 
-   .hr {
-    display: none;
-   }
-   img{
-    width: 250px;
-    height: 250px; 
-    margin-top: 220px;
+.liste1 {
+   margin-left: 17.5%;
+   margin-right: 17.5%;
     
 }
-
-
-h2 {
-    font-family: 'Poppins', sans-serif;
-    color: #3d3d3d; 
-    font-size: 40px;
-    font-weight: bold;
-    text-align: center;
-    width: 400px;
-}
-h3 {
-    font-family: 'Poppins', sans-serif;
-    color: #484848; 
-    font-size: 20px;  
-    font-weight: 400;
-    text-align: center;
-    width: 400px;
-}
-.hometext {
-    font-family: 'Poppins', sans-serif;
-    color: #8e8e8e; 
-    font-size: 15px; 
-    font-family: 'Poppins', sans-serif;
-    font-weight: 200;
-    width: 400px;
-    margin-top: 13px;
-}
-.contenutextimage{
-   
-    width: 400px;
-    }
-    svg {
-        width: 24px;
-        height: 24px;
-    }
-   
-}
-@media only screen and (max-width: 500px) {
-    .nav{
-        display: none;
-    } 
-   .hr {
-    display: none;
-   }
-   img{
-    width: 200px;
-    height: 200px; 
-    margin-top: 220px;
+.liste2 {
+   margin-left: 17.5%;
+   margin-right: 17.5%;
     
-}
-
-
-h2 {
-    font-family: 'Poppins', sans-serif;
-    color: #3d3d3d; 
-    font-size: 35px;
-    font-weight: bold;
-    text-align: center;
-    width: 340px;
-}
-h3 {
-    font-family: 'Poppins', sans-serif;
-    color: #484848; 
-    font-size: 18px;  
-    font-weight: 400;
-    text-align: center;
-    width: 340px;
-}
-.hometext {
-    font-family: 'Poppins', sans-serif;
-    color: #8e8e8e; 
-    font-size: 13px; 
-    font-family: 'Poppins', sans-serif;
-    font-weight: 200;
-    width: 360px;
-    margin-top: 13px;
-    
-}
-.contenutextimage{
-    margin-left: -10px;
-   
-    width: 400px;
-    }
-    svg {
-        width: 24px;
-        height: 24px;
-    }
-   
-}
-
-@media only screen and (max-width: 430px) {
-    .contenutextimage{
-        margin-left: -60px;
-       
-        width: 300px;
-        }
-        
-        h2 {
-            font-family: 'Poppins', sans-serif;
-            color: #3d3d3d; 
-            font-size: 30px;
-            font-weight: bold;
-            text-align: center;
-            width: 345px;
-        }
-        h3 {
-            font-family: 'Poppins', sans-serif;
-            color: #484848; 
-            font-size: 18px;  
-            font-weight: 400;
-            text-align: center;
-            width: 345px;
-        }
-        .hometext {
-            font-family: 'Poppins', sans-serif;
-            color: #8e8e8e; 
-            font-size: 13px; 
-            font-family: 'Poppins', sans-serif;
-            font-weight: 200;
-            width: 345px;
-            margin-top: 13px;
-            text-align: center;
-            
-        }
-        img{
-            width: 200px;
-            height: 200px; 
-            margin-top: 180px;
-            
-        }
-        .social {
-            margin-top: 200px;
-            margin-left: 30px;
-            margin-right: 40px;
-            
-         }
-}
-
-@media only screen and (max-width: 375px) {
-    .contenutextimage{
-        margin-left: -70px;
-       
-        width: 300px;
-        }
-        
-    .hometext {
-        font-family: 'Poppins', sans-serif;
-        color: #8e8e8e; 
-        font-size: 13px; 
-        font-family: 'Poppins', sans-serif;
-        font-weight: 200;
-        width: 300px;
-        margin-top: 13px;
-        margin-left: 22px;
-        text-align: center;
-        
-    }
-    img{
-        width: 200px;
-        height: 200px; 
-        margin-top: 130px;
-        
-    }
-    .social {
-        margin-top: 130px;
-        margin-left: 30px;
-        margin-right: 40px;
-        
-     }
-
 }
