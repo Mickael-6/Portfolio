@@ -24,13 +24,14 @@ body{
     display:flex;
     position: fixed;
     
+    
 }
  h1{
-    margin-right: 960px;
+   margin-right: 960px; 
     margin-left: 200px;
     font-family: 'Poppins', sans-serif;
     color: #3d3d3d; 
-
+    
 } 
 
 h2 {
@@ -60,16 +61,20 @@ h3 {
     margin-top: 13px;
 }
 .nav ul{
+    
     display: inline-flex;
+   
     list-style-type: none;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     font-size: 17px;
-   
+    
 }
 .nav li {
+    
+    
     padding-right: 28px;
-    padding-left: 28px;
+    padding-left: 28px; 
     padding-top: 6px;
     transition: transform .1s; 
     
@@ -84,6 +89,7 @@ h3 {
 a {
     text-decoration: none;
     color: #3d3d3d;
+    cursor: default;
 }
 .photo{
     width: 300px;
@@ -102,8 +108,8 @@ a {
 
 .social {
    margin-top: 300px;
-   margin-left: 200px;
-   margin-right: 150px;
+   
+  
 }
 .social li{
     padding-top: 18px;
@@ -116,13 +122,14 @@ a {
 }
 .contenu {
    display: flex;
-   margin-bottom: 360px;
+   justify-content: center;
+   margin-bottom: 300px;
+   
 }
 .contenutext {
     display: inline;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 300px; 
+   
+    width: 470px; 
 }
 /********************************************************** COMPETENCE ****************************************************************************/
 h4 {
@@ -147,7 +154,6 @@ h4 {
 .cardcompetence2{
     height: 348px;
     width: 500px;
-    
     margin-bottom: 500px;
     background-color:#FFFFFF;
     border: solid 1px #e5e5e5;
@@ -222,7 +228,7 @@ h5 {
     text-align: center;
     margin-bottom: 100px;
 }
-/********************************************************** CARD PREOJETS **********************************************************************/
+/********************************************************** CARD PROJETS **********************************************************************/
 
 .cardprojets{
     height: 423px;
@@ -231,7 +237,7 @@ h5 {
     border: solid 1px #e5e5e5;
     border-radius: 5%;
     margin: auto;
-    margin-bottom: 2000px;
+    margin-bottom:240px;
 }
 
 .gameshop {
@@ -269,14 +275,66 @@ h5 {
 }
 .texttechno ul {
     margin-top: 20px;
-    
     font-size: 25px;
     display: inline-flex;
     list-style-type: none;
 }
 .texttechno li {
-    
     margin-left: 3px;
     margin-right: 3px;
-   
 }
+
+
+/********************************************************** RESPONSIVE **********************************************************************/
+
+@media only screen and (max-width: 1669px) {
+    h1{
+        margin-right: 760px;     
+     }  
+   }
+@media only screen and (max-width: 1569px) {
+    h1{
+        margin-right: 660px;     
+     }  
+   }
+@media only screen and (max-width: 1469px) {
+    h1{
+        margin-right: 560px;     
+     }  
+   }
+@media only screen and (max-width: 1369px) {
+    h1{
+        margin-right: 460px;     
+     }  
+   }
+@media only screen and (max-width: 1269px) {
+    h1{
+        margin-right: 360px;     
+     }  
+     h4 {
+        
+        margin-bottom: 25px;
+    }
+     .allcards{
+        display: block;
+        margin: auto;
+       }
+       .cardcompetence1{
+        margin: auto;  
+        margin-bottom: 50px;
+   }
+       .cardcompetence2{
+        margin: auto;
+        margin-bottom: 50px;  
+   }
+}
+@media only screen and (max-width: 1169px) {
+    h1{
+        margin-right: 260px;     
+     }  
+   }
+@media only screen and (max-width: 1069px) {
+    h1{
+        margin-right: 210px;     
+     }  
+   }
